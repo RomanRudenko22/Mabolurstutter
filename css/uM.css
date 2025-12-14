@@ -25,3 +25,21 @@
     padding-bottom: 10px;
     padding-top: 10px;
 }
+
+.button{
+    --pico-background-color: var(--pico-color);
+    --pico-text-selection-color: var(--pico-mark-background-color);    
+}
+.button:hover{
+    --pico-background-color: var(--pico-mark-background-color);
+}
+.col-1 {
+    font-family: "Science Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400 ;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "CTRS" 0;
+}

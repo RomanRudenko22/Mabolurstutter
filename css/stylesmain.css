@@ -45,9 +45,79 @@
 }
 .button{
     --pico-background-color: var(--pico-color);
-    --pico-text-selection-color: var(--pico-mark-background-color);
-    
+    --pico-text-selection-color: var(--pico-mark-background-color);    
 }
 .button:hover{
     --pico-background-color: var(--pico-mark-background-color);
 }
+
+.mai {
+    font-family: "Science Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400 ;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "CTRS" 0;
+}
+
+
+.image {
+    position: relative;
+    left: 1000px;
+    bottom: 630px;
+}
+
+.image {
+
+    display: flex;
+    justify-content: center;
+    animation-name: anim-imge;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-direction: alternate;
+}
+
+@keyframes anim-imge {
+  0% {
+    transform:scaleX(0);
+    
+    
+  }
+  33% {
+    transform:scaleX(1);
+    
+  }
+  66% {
+    transform:scaleX(-1);
+  }
+
+  100% {
+    transform:scaleX(0);   
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
